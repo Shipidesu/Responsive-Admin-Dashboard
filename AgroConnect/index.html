@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface Agroconnect</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="images.png">
+                    <h2><span class="danger1">AGRO</span><span class="danger">CONNECT</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+
+                <a href="#">
+                    <span class="material-icons-sharp">receipt_long</span>
+                    <h3>Tutorial</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">person_outline</span>
+                    <h3>Portal</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">chat</span>
+                    <h3>Mensagens</h3>
+                    <span class="message-count">3</span>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">insights</span>
+                    <h3>Análises</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Configurações</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">add</span>
+                    <h3>Adicionar Produto</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">report_gmailerrorred</span>
+                    <h3>Reportar Bug</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Sair</h3>
+                </a>
+            </div>
+        </aside>
+        <main>
+            <h1> Portal da Fazenda </h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-icons-sharp">analytics</span>
+                    <div class="middle">
+                    <div class="left">
+                        <h3> Total de Vendas</h3>
+                        <h1>R$25.024</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='36'></circle>
+                        </svg> 
+                        <div class="number">
+                            <p>81%</p>
+                        </div>
+                    </div>
+                </div>
+                    <small class="text-muted">Ultimas 24 horas</small>
+                </div>
+            
+                <div class="expenses">
+                    <span class="material-icons-sharp">bar_chart</span>
+                    <div class="middle">
+                    <div class="left">
+                        <h3> Total de Despesas</h3>
+                        <h1>R$14.162</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='36'></circle>
+                        </svg> 
+                        <div class="number">
+                            <p>62%</p>
+                        </div>
+                    </div>
+                </div>
+                    <small class="text-muted">Ultimas 24 horas</small>
+                </div>
+                
+                <div class="income">
+                    <span class="material-icons-sharp">stacked_line_chart</span>
+                    <div class="middle">
+                    <div class="left">
+                        <h3> Total de Ganhos</h3>
+                        <h1>R$10.864</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='36'></circle>
+                        </svg> 
+                        <div class="number">
+                            <p>44%</p>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted">Ultimas 24 horas</small>
+            </div>
+
+            </div>
+            <div class="recent-orders">
+                <h2>Envios Recentes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome do Produto</th>
+                            <th>Número do Produto</th>
+                            <th>Pagamento</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Trigo</td>
+                            <td>85631</td>
+                            <td class="approved">Aprovado</td>
+                            <td class="warning2">Entregue</td>
+                            <td class="primary"><a href="#">Detalhes</a></td>
+                        </tr>
+                        <tr>
+                            <td>Leite de Cabra</td>
+                            <td>61736</td>
+                            <td class="approved">Aprovado</td>
+                            <td class="warning">Em transito</td>
+                            <td class="primary"><a href="#">Detalhes</a></td>
+                        </tr>
+                        <tr>
+                            <td>Caminhão</td>
+                            <td>94192</td>
+                            <td class="approved">Aprovado</td>
+                            <td class="warning">Em transito</td>
+                            <td class="primary"><a href="#">Detalhes</a></td>
+                        </tr>
+                        <tr>
+                            <td>Gado(Vaca)</td>
+                            <td>02873</td>
+                            <td class="approved">Aprovado</td>
+                            <td class="warning">Em transito</td>
+                            <td class="primary"><a href="#">Detalhes</a></td>
+                        </tr>
+                        <tr>
+                            <td>Gado(Boi)</td>
+                            <td>02874</td>
+                            <td class="approved2">Pendente</td>
+                            <td class="warning">Em transito</td>
+                            <td class="primary"><a href="#">Detalhes</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Mostrar mais</a>
+            </div>
+        </main>
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p> Olá, Seja bem-vindo(a) de volta <b>Vitor Lima</b>!</p>
+                        <small class="text-muted">Administrador</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="download.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-updates">
+                <h2>Atualizações Recentes</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="download2.png">
+                        </div>
+                        <div class="messages">
+                            <p><b>Mike</b> acabou de receber o produto no local destinado.</p>
+                            <small class="text-muted">2 minutos atrás</small>
+                        </div>
+                    </div>
+
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="download3.png">
+                        </div>
+                        <div class="messages">
+                            <p><b>Isabela</b> acabou de solicitar o seu pedido "PlayStation 5 Edição de Colecionador".</p>
+                            <small class="text-muted">3 minutos atrás</small>
+                        </div>
+                    </div>
+
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="download4.png">
+                        </div>
+                        <div class="messages">
+                            <p><b>Robsom</b> acabou de abrir uma solicitação para receber o código de rastreamento do seu produto.</p>
+                            <small class="text-muted">4 minutos atrás</small>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Mostrar mais</a>
+            </div>
+            <div class="sales-analytics">
+                <h2>Análise de Vendas</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-icons-sharp">shopping_cart</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Pedidos Online</h3>
+                            <small class="text-muted"> Últimas 24 horas </small>
+                        </div>
+                        <h5 class="sucess">+39%</h5>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-icons-sharp">local_mall</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Pedidos Offline</h3>
+                            <small class="text-muted"> Últimas 24 horas </small>
+                        </div>
+                        <h5 class="danger">-17%</h5>
+                        <h3>1100</h3>
+                    </div>
+                </div>
+
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-icons-sharp">person</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Novos Clientes</h3>
+                            <small class="text-muted"> Últimas 24 horas </small>
+                        </div>
+                        <h5 class="sucess">+25%</h5>
+                        <h3>849</h3>
+                    </div>
+                </div>
+                <div class="item add-product">
+                    <div>
+                        <span class="material-icons-sharp">add</span>
+                        <a href="#"><h3>Adicionar Produto</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
